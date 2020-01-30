@@ -175,7 +175,7 @@
         "      for j in range(length_of_walk):\n",
         "        next_node = random.choice(list(G.neighbors(current_node)))\n",
         "        walk.append(str(next_node))\n",
-        "        current_node = next_node\n",
+        "        current_node = node\n",
         "      walks.append(walk)\n",
         "  return walks\n",
         "\n",
