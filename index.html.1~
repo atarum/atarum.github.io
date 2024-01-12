@@ -53,8 +53,8 @@
 	第11章　リファレンス
 	<br>
 	<br>
-	<strong>2024.1.12更新</strong><br>
-	・2章、3章、7章、8章、9章のプログラムコードを以下のように修正しました。現時点で全てのコードが動作することを確認しています。<br>
+	<strong>2024.1.5更新</strong><br>
+	・2章、3章、7章、8章のプログラムコードを以下のように修正しました。現時点でリスト9.2以外は動作することを確認しています。<br>
 	2.4	draw_circularの引数nlistを除去<br>
 	3.6	nx.info(G)を除去しnumber_of_nodesなどの関数を追加<br>
 	3.7	nx.info(G)を除去しin_degreeなどの関数を追加<br>
@@ -67,9 +67,6 @@
 	8.3	関数word2vecの引数からsizeを除去<br>
 	8.4	関数word2vecの引数からsizeを除去<br>
 	9.1	scipy.expからnumpy.expに修正<br>
-	9.2	NDlibの変更に伴い、ライブラリの一部をbokehからmatplotlibに変更(ndlib.viz.bokeh.DiffusionTrend -> ndlib.viz.mpl.DiffusionTrend 等)。DiffusionTrendとDiffusionPrevalenceの引数を除去<br>
-
-scipy.expからnumpy.expに修正<br>
 <br>
 	<strong>正誤表(2020.12.16現在)</strong><br>
 	・目次vi 第4.1節 さなざまな中心性の定義 -> さまざまな中心性の定義<br>
