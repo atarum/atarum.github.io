@@ -53,7 +53,7 @@
 	第11章　リファレンス
 	<br>
 	<br>
-	<strong>2024.1.24更新</strong><br>
+	<strong>2024.1.12更新</strong><br>
 	・2章、3章、7章、8章、9章のプログラムコードを以下のように修正しました。現時点で全てのコードが動作することを確認しています。<br>
 	2.4	draw_circularの引数nlistを除去<br>
 	3.6	nx.info(G)を除去しnumber_of_nodesなどの関数を追加<br>
@@ -64,8 +64,8 @@
 	7.1	nx.info(G)を除去し number_of_nodesなどの関数を追加<br>
 	7.4	nx.info(G)を除去しnumber_of_nodesなどの関数を追加<br>
 	8.1	スペリングを修正<br>
-	8.3	関数word2vecの引数のsizeをvector_sizeに変更<br>
-	8.4	関数word2vecの引数のsizeをvector_sizeに変更<br>
+	8.3	関数word2vecの引数からsizeを除去<br>
+	8.4	関数word2vecの引数からsizeを除去<br>
 	9.1	scipy.expからnumpy.expに修正<br>
 	9.2	NDlibの変更に伴い、ライブラリの一部をbokehからmatplotlibに変更(ndlib.viz.bokeh.DiffusionTrend -> ndlib.viz.mpl.DiffusionTrend 等)<br>
 		DiffusionTrendとDiffusionPrevalenceの引数を除去<br>
